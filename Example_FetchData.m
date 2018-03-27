@@ -20,7 +20,7 @@ function data = Example_FetchData( )
     stage_list = {'KTrain', 'KPost', 'KTherapy', 'KTherapyStim'};
     
 	% Specify the root path where all of the data can be found for each animal
-    data_path = 'Z:\Navid_Behavior_Data\';
+    data_path = 'C:\Behavior Data\';
     
 	%Display a start time (indicating when the process of loading the data begins)
     disp(datestr(now));
